@@ -22,7 +22,7 @@ Given a movie title, predict the most likely genres associated with the movie.
   "confidence": 0.82,
   "inference_time": "0.03s"
 }
-
+```
 ## Project Features
 
 This project implements a complete machine learning pipeline for multi-label text classification. The core components include:
@@ -249,11 +249,20 @@ different models use different thresholds based on their output type.
 simple and clear prediction logic, separate pipelines for both approaches, comments kept in code to show experimentation, honest fallback from MLflow to local loading, logging added after testing was complete.
 
 # How to Run the Application
-you need to install dependencies first:
-pip install fastapi uvicorn scikit-learn joblib mlflow
-yuvicorn app:app --reload 
-and open in your browser: http://127.0.0.1:8000/docs
 
+You need to install dependencies first:
+
+```bash
+pip install fastapi uvicorn scikit-learn joblib mlflow
+```
+
+Run the application with:
+
+```bash
+yuvicorn app:app --reload
+```
+
+And open in your browser: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 
 # Screenshots
@@ -283,3 +292,4 @@ Model training and experimentation were conducted using a Jupyter notebook
 The training Docker image includes this notebook as a reference for the
 training logic. Due to time constraints, training is executed locally,
 while inference is fully containerized and production-ready.
+
