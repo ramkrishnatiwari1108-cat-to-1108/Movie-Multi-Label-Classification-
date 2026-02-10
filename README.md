@@ -43,14 +43,17 @@ This project implements a complete machine learning pipeline for multi-label tex
         * **Label Count**: Reporting the number of genres predicted for each input.
 
 
+# Folder and File Structure
 
-Folder and File Structure
+```
 .
 ├── data
 │   ├── movies_overview.csv
 │   ├── movie_genres.csv
 │   └── final_movie_genre_V2.csv
 │
+├── Screenshot
+│   │--
 ├── Adaptation.ipynb
 ├── Transformation.ipynb
 ├── app.py
@@ -61,8 +64,7 @@ Folder and File Structure
 ├── knn.pkl
 ├── inference.log
 └── README.md
-
-
+```
 ## Problem Statement
 
 Movies usually have more than one genre. 
@@ -83,7 +85,7 @@ Because of this, predicting genres is not a single-label problem. Instead of pre
 Problem Transformation methods convert a multi-label problem into multiple single-label problems.
 
 Each label is predicted in a structured way instead of all at once.
-
+I have explained the code , in there , 
 ### Model Used
 
 - Classification Chain with SVM
@@ -163,7 +165,8 @@ The notebook includes:
 - A genre is selected if its probability is above the threshold.
 
 
-
+# Also checkout each jupyter notebook for comments and markdown 
+I have tried my best to explain it 
 
 
 
@@ -181,7 +184,7 @@ Titles are converted to lowercase.
 No heavy text cleaning was done to avoid losing meaning.
 
 # Model Saving and Loading
-
+Original I was suppose to be using ML flow , but some issues occured ,i lost it all , after re launching i had to start again 
 All trained components are saved using `joblib`:
 - TF-IDF vectorizers
 - Genre label encoder (`MultiLabelBinarizer`)
@@ -193,7 +196,7 @@ This allows:
 - Stable and repeatable predictions
 
 # FastAPI Application (`app.py`)
-
+the model were  supposed to be connected via ML flow , i have also provided the Screenshots of ML flow UI 
 ## API Overview
 The FastAPI app provides two endpoints, one for each approach:
 | Endpoint | Method | Purpose |
@@ -234,6 +237,8 @@ Every prediction request is logged with:
 the endpoint used,
 how long inference took,
 and how many genres were predicted.
+U can run it and see the log 
+<img width="977" height="256" alt="Image" src="https://github.com/user-attachments/assets/8fd92f3d-6b60-48f7-86ce-f1eb0c916350" />
 
 def example log entry: 2026-02-10 18:32:12 | endpoint=adaptation | latency=0.011s | confidence=3_labels 
 this helps track performance, prediction behavior, and basic monitoring without extra tools.
@@ -255,6 +260,7 @@ You need to install dependencies first:
 ```bash
 pip install fastapi uvicorn scikit-learn joblib mlflow
 ```
+Get all the model in pkl file in one folder (to keep it simple )
 
 Run the application with:
 
@@ -336,6 +342,7 @@ Model training and experimentation were conducted using a Jupyter notebook
 The training Docker image includes this notebook as a reference for the
 training logic. Due to time constraints, training is executed locally,
 while inference is fully containerized and production-ready.
+
 
 
 
