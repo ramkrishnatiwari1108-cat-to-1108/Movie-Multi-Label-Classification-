@@ -272,7 +272,7 @@ below are the screenshots provided
 #Ml Flow Screenshots
 
 ML fllow UI (as i  had to do it again)
-![image alt]('Screenshots/ML Flow UI.png')
+![image alt]('Screenshots/https://github.com/ramkrishnatiwari1108-cat-to-1108/Movie-Multi-Label-Classification-/blob/9ba7ac7010e5fe5d123dd757b8db8e7dbcef9b25/Screenshots/ML%20FLow%20UI.png)
 
 
 
@@ -292,5 +292,6 @@ Model training and experimentation were conducted using a Jupyter notebook
 The training Docker image includes this notebook as a reference for the
 training logic. Due to time constraints, training is executed locally,
 while inference is fully containerized and production-ready.
+
 
 
