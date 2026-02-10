@@ -272,8 +272,52 @@ below are the screenshots provided
 #Ml Flow Screenshots
 
 ML fllow UI (as i  had to do it again)
-![image alt]('Screenshots/https://github.com/ramkrishnatiwari1108-cat-to-1108/Movie-Multi-Label-Classification-/blob/9ba7ac7010e5fe5d123dd757b8db8e7dbcef9b25/Screenshots/ML%20FLow%20UI.png)
+<img width="1906" height="638" alt="Image" src="https://github.com/user-attachments/assets/debe1c9c-d634-4762-a483-696f93cc5b78" />
 
+
+Multi-Level Decision Tree
+<img width="1898" height="770" alt="Image" src="https://github.com/user-attachments/assets/cf42a466-2580-4307-ba66-caa46fed62c6" />
+
+
+<img width="1891" height="814" alt="Image" src="https://github.com/user-attachments/assets/9452d260-158e-419d-83fc-ba2831301948" />
+
+Classification Chain and Linear SVM 
+
+<img width="1869" height="741" alt="Image" src="https://github.com/user-attachments/assets/91e95203-f6fd-4b7b-b436-c2ceeccc6826" />
+
+
+Logistic REgression and Binary Relevance
+<img width="1893" height="678" alt="Image" src="https://github.com/user-attachments/assets/c3d0f9e9-cee5-4426-b0dc-7216a3aca4ca" />
+
+<img width="1817" height="796" alt="Image" src="https://github.com/user-attachments/assets/cd8dfb5b-b977-4d13-aa1e-6b64701d86f4" />
+
+
+Multi Label KNN
+<img width="1869" height="712" alt="Image" src="https://github.com/user-attachments/assets/6b4cd60c-ca76-413d-9105-1299e6459a13" />
+
+<img width="1875" height="827" alt="Image" src="https://github.com/user-attachments/assets/bed3350c-8e04-4983-8e93-a0048359a2c2" />
+
+
+## Now here is the Swagger UI images 
+<img width="1825" height="444" alt="Image" src="https://github.com/user-attachments/assets/013a813a-8467-4810-807e-076ec46831ed" />
+
+<img width="1908" height="972" alt="Image" src="https://github.com/user-attachments/assets/331ab645-5458-45c6-b6fd-b5cb44c2f160" />
+
+
+# Here is some tranformation Example 
+<img width="1889" height="643" alt="Image" src="https://github.com/user-attachments/assets/58b258ad-5f68-41b6-b77d-70f02ef3e01a" />
+
+__________________________________________________
+<img width="1808" height="722" alt="Image" src="https://github.com/user-attachments/assets/2aeff129-d504-44b7-8c84-5123f9747cb7" />
+
+
+
+Some Adaption Example
+<img width="1783" height="784" alt="Image" src="https://github.com/user-attachments/assets/a29d4e4e-87bc-471e-bb2a-7712745bde66" />
+
+<img width="1826" height="796" alt="Image" src="https://github.com/user-attachments/assets/bc0a0e79-4a4a-4230-a704-a9ca3774cd87" />
+
+<img width="1833" height="742" alt="Image" src="https://github.com/user-attachments/assets/e7d1230c-308b-4f9c-a6e2-fdc7ea3ff45d" />
 
 
 
@@ -292,6 +336,7 @@ Model training and experimentation were conducted using a Jupyter notebook
 The training Docker image includes this notebook as a reference for the
 training logic. Due to time constraints, training is executed locally,
 while inference is fully containerized and production-ready.
+
 
 
 
