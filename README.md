@@ -261,7 +261,7 @@ You need to install dependencies first:
 pip install fastapi uvicorn scikit-learn joblib mlflow
 ```
 Get all the model in pkl file in one folder (to keep it simple )
-
+and download the data and copy the path as your own in your PC
 Run the application with:
 
 ```bash
@@ -342,6 +342,7 @@ Model training and experimentation were conducted using a Jupyter notebook
 The training Docker image includes this notebook as a reference for the
 training logic. Due to time constraints, training is executed locally,
 while inference is fully containerized and production-ready.
+
 
 
 
