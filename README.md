@@ -272,7 +272,7 @@ below are the screenshots provided
 #Ml Flow Screenshots
 
 ML fllow UI (as i  had to do it again)
-![Example](./Screenshots/ML Flow UI.png)
+![image alt]('Screenshots/ML Flow UI.png')
 
 
 
@@ -292,4 +292,5 @@ Model training and experimentation were conducted using a Jupyter notebook
 The training Docker image includes this notebook as a reference for the
 training logic. Due to time constraints, training is executed locally,
 while inference is fully containerized and production-ready.
+
 
