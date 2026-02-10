@@ -1,0 +1,9 @@
+2026-02-10 21:26:05,877 | endpoint=transformation | latency=0.039s | confidence=N/A
+2026-02-10 21:26:35,400 | endpoint=transformation | latency=0.04s | confidence=N/A
+2026-02-10 21:26:52,172 | endpoint=transformation | latency=0.037s | confidence=N/A
+2026-02-10 21:27:13,499 | endpoint=adaptation | latency=0.078s | confidence=N/A
+2026-02-10 21:27:36,892 | endpoint=adaptation | latency=0.062s | confidence=N/A
+2026-02-10 21:28:19,300 | endpoint=adaptation | latency=0.065s | confidence=N/A
+2026-02-10 21:28:52,996 | endpoint=adaptation | latency=0.064s | confidence=N/A
+2026-02-10 21:34:41,423 | endpoint=adaptation | latency=0.071s | confidence= 1_labels
+2026-02-10 21:35:02,574 | endpoint=adaptation | latency=0.063s | confidence= 3_labels
