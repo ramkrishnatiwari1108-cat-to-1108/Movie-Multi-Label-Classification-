@@ -286,23 +286,35 @@ Multi-Level Decision Tree
 
 
 <img width="1891" height="814" alt="Image" src="https://github.com/user-attachments/assets/9452d260-158e-419d-83fc-ba2831301948" />
+Artifacts 
+<img width="1919" height="850" alt="Image" src="https://github.com/user-attachments/assets/1ddf883b-caea-4a3c-805d-2b958a19c739" />
+
+
+
 
 Classification Chain and Linear SVM 
 
 <img width="1869" height="741" alt="Image" src="https://github.com/user-attachments/assets/91e95203-f6fd-4b7b-b436-c2ceeccc6826" />
+Artifacts 
 
+<img width="1904" height="875" alt="Image" src="https://github.com/user-attachments/assets/cb86027f-80e4-4797-8578-33d09e0dd26a" />
 
 Logistic REgression and Binary Relevance
 <img width="1893" height="678" alt="Image" src="https://github.com/user-attachments/assets/c3d0f9e9-cee5-4426-b0dc-7216a3aca4ca" />
 
 <img width="1817" height="796" alt="Image" src="https://github.com/user-attachments/assets/cd8dfb5b-b977-4d13-aa1e-6b64701d86f4" />
+Artifacts 
+
+<img width="1906" height="856" alt="Image" src="https://github.com/user-attachments/assets/31826532-1ccf-462a-a959-2a6cf1436b36" />
 
 
 Multi Label KNN
 <img width="1869" height="712" alt="Image" src="https://github.com/user-attachments/assets/6b4cd60c-ca76-413d-9105-1299e6459a13" />
 
 <img width="1875" height="827" alt="Image" src="https://github.com/user-attachments/assets/bed3350c-8e04-4983-8e93-a0048359a2c2" />
+Artifacts
 
+<img width="1901" height="831" alt="Image" src="https://github.com/user-attachments/assets/ac23481f-2911-4d7e-b082-b3f82fbee912" />
 
 ## Now here is the Swagger UI images 
 <img width="1825" height="444" alt="Image" src="https://github.com/user-attachments/assets/013a813a-8467-4810-807e-076ec46831ed" />
@@ -342,6 +354,7 @@ Model training and experimentation were conducted using a Jupyter notebook
 The training Docker image includes this notebook as a reference for the
 training logic. Due to time constraints, training is executed locally,
 while inference is fully containerized and production-ready.
+
 
 
 
